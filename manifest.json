@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Get SGF Files",
+  "version": "1.0",
+  "description": "get *.sgf files to secified folder from http://duiyi.sina.com.cn/qipu/new_gibo.asp",
+
+  "browser_action": {
+    "default_icon": "book.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "http://*/*", "https://*/*"
+  ]
+}
